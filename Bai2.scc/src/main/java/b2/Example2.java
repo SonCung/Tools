@@ -15,7 +15,7 @@ public class Example2 {
 		Date date = new Date();
 		String stringDate = dateFormat.format(date);
 		BufferedWriter writer = new BufferedWriter(
-				new FileWriter("/home/soncung/documents/"+stringDate+".txt"));
+				new FileWriter("/home/soncung/Downloads/"+stringDate+".txt"));
 		writer.write(s);
 		writer.newLine();
 		writer.close();
